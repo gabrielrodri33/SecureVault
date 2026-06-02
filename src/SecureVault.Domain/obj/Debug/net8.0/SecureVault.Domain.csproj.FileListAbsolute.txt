@@ -1,0 +1,12 @@
+D:\SecureVault\src\SecureVault.Domain\bin\Debug\net8.0\SecureVault.Domain.deps.json
+d:\SecureVault\src\SecureVault.Domain\bin\Debug\net8.0\SecureVault.Domain.dll
+d:\SecureVault\src\SecureVault.Domain\bin\Debug\net8.0\SecureVault.Domain.pdb
+d:\SecureVault\src\SecureVault.Domain\obj\Debug\net8.0\SecureVault.Domain.GeneratedMSBuildEditorConfig.editorconfig
+d:\SecureVault\src\SecureVault.Domain\obj\Debug\net8.0\SecureVault.Domain.AssemblyInfoInputs.cache
+d:\SecureVault\src\SecureVault.Domain\obj\Debug\net8.0\SecureVault.Domain.AssemblyInfo.cs
+d:\SecureVault\src\SecureVault.Domain\obj\Debug\net8.0\SecureVault.Domain.csproj.CoreCompileInputs.cache
+d:\SecureVault\src\SecureVault.Domain\obj\Debug\net8.0\SecureVault.Domain.sourcelink.json
+d:\SecureVault\src\SecureVault.Domain\obj\Debug\net8.0\SecureVault.Domain.dll
+d:\SecureVault\src\SecureVault.Domain\obj\Debug\net8.0\refint\SecureVault.Domain.dll
+d:\SecureVault\src\SecureVault.Domain\obj\Debug\net8.0\SecureVault.Domain.pdb
+D:\SecureVault\src\SecureVault.Domain\obj\Debug\net8.0\ref\SecureVault.Domain.dll
