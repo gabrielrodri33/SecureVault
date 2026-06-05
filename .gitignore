@@ -1,0 +1,37 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# .NET build artifacts
+**/bin/
+**/obj/
+*.user
+*.suo
+.vs/
+*.swp
+
+# Publish output
+**/publish/
+**/out/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
