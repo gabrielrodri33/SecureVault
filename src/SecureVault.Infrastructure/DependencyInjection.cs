@@ -12,8 +12,11 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
+        var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL")
+            ?? configuration.GetConnectionString("DefaultConnection");
+
         services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+            options.UseNpgsql(connectionString));
         services.AddScoped<IApplicationDbContext>(p => p.GetRequiredService<ApplicationDbContext>());
         services.AddScoped<IJwtService, JwtService>();
         services.AddScoped<ICryptoService, CryptoService>();
